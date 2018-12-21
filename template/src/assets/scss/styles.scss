@@ -1,0 +1,33 @@
+@import '@/../node_modules/css-commons/scss/index.scss';
+
+body * {
+  font-size: 16px;
+}
+
+.text-white {
+  color: $white;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  letter-spacing: normal;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: .75rem; }
+
+.btn { border-radius: 2px !important; }
+
+.alert-outline {
+  border-width: 5px !important;
+  background: $white !important;
+  border-radius: 0;
+}
+
+.no-scroll { overflow: hidden; }
